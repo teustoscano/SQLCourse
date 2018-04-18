@@ -1,0 +1,5 @@
+What is a DataBase?
+    -Collection of data & Method for accessing and manipulating that data
+
+
+    | Your App | --> | DBManageSystem | --> | DataBase |
