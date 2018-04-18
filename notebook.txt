@@ -3,3 +3,26 @@ What is a DataBase?
 
 
     | Your App | --> | DBManageSystem | --> | DataBase |
+
+SQL is the language we use to talk to our DB.
+    "Find all Users"
+    "Find all Users who are 18 years old" SELECT * FROM Users WHERE Age >= 18;
+    "Add a new User with Username 'Jumbolim'"
+    "Delete every single User"
+
+
+
+    Demanda
+        lista luz para todos (Admin -> IMNE)
+        IBGE: tudo mapeado
+        CENSO:
+            -demo ->Universal,
+                  ->Amostral, mais detalhado
+            -agro
+
+            Questionario:
+                n de pessoas, energia, eletrodomesticos
+                Setor Censitario
+                cada tabela == uma shape
+                    -rural
+                    -urbano
