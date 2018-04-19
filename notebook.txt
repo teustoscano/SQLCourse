@@ -1,6 +1,7 @@
 What is a DataBase?
     -Collection of data & Method for accessing and manipulating that data
-
+    -Collumns are the headers
+    -Rows are the actual data
 
     | Your App | --> | DBManageSystem | --> | DataBase |
 
@@ -10,6 +11,24 @@ SQL is the language we use to talk to our DB.
     "Add a new User with Username 'Jumbolim'"
     "Delete every single User"
 
+Data Types
+    -   INT     SMALLINT    TINYINT   MEDIUMINT     BIGINT      DECIMAL     NUMERICAL       FLOAT       DOUBLE      BIT
+    -   CHAR    VARCHAR     BINARY    VARBINARY     BLOB        TEXT        ENUM
+    -   DATE    DATETIME    TIMESTAMP TIME          YEAR    
+
+Pieces of Code
+    show databases;
+    CREATE DATABASE <name>;
+    DROP DATABASE <name>;
+    USE <database name>;
+    SELECT database();
+    CREATE TABLE <tablename>(
+        column_name date_type,
+        column_name date_type
+    );
+    SHOW TABLES;
+    SHOW COLUMNS FROM <tablename>; ou DESC <tablename>;
+    DROP TABLE <tablename>;
 
 
     Demanda
