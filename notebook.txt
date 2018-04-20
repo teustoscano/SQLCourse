@@ -17,7 +17,7 @@ Data Types
     -   DATE    DATETIME    TIMESTAMP TIME          YEAR    
 
 Pieces of Code
-    show databases;
+    SHOW DATABASES;
     CREATE DATABASE <name>;
     DROP DATABASE <name>;
     USE <database name>;
@@ -26,10 +26,30 @@ Pieces of Code
         column_name date_type,
         column_name date_type
     );
+    CREATE TABLE <tablename>(
+        column_name date_type DEFAULT 'unnamed',
+        column_name date_type
+    );
     SHOW TABLES;
     SHOW COLUMNS FROM <tablename>; ou DESC <tablename>;
     DROP TABLE <tablename>;
+    INSERT INTO <tablename>(name, age) VALUES ('Jetson', 7);
+    SELECT * FROM cats;
+    CREATE TABLE <tablename> (single_id INT NOT NULL AUTO_INCREMENT
+                            ,name VARCHAR(100)
+                            ,age INT
+                            ,PRIMARY KEY (single_id));
 
+
+EXERCISES
+    -Define an employees table, with the following fields:
+    CREATE TABLE employees(employee_id INT NOT NULL AUTO_INCREMENT
+                            ,last_name VARCHAR NOT NULL
+                            ,first_name VARCHAR NOT NULL
+                            ,middle_name VARCHAR
+                            ,age INT NOT NULL
+                            ,current_status VARCHAR NOT NULL DEFAULT 'employed'
+                            ,PRIMARY KEY (employee_id));
 
     Demanda
         lista luz para todos (Admin -> IMNE)
