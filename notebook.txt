@@ -11,12 +11,12 @@ SQL is the language we use to talk to our DB.
     "Add a new User with Username 'Jumbolim'"
     "Delete every single User"
 
-Data Types
+DATA TYPES
     -   INT     SMALLINT    TINYINT   MEDIUMINT     BIGINT      DECIMAL     NUMERICAL       FLOAT       DOUBLE      BIT
     -   CHAR    VARCHAR     BINARY    VARBINARY     BLOB        TEXT        ENUM
     -   DATE    DATETIME    TIMESTAMP TIME          YEAR    
 
-Pieces of Code
+PIECES OF CODE
     SHOW DATABASES;
     CREATE DATABASE <name>;
     DROP DATABASE <name>;
@@ -39,7 +39,14 @@ Pieces of Code
                             ,name VARCHAR(100)
                             ,age INT
                             ,PRIMARY KEY (single_id));
+    SELECT * FROM cats WHERE age=4;
+    SELECT cat_id AS id, name FROM cats;
+    UPDATE cats SET breed='Shorthair' WHERE breed='Tabby';
+    DELETE FROM cats WHERE name='Egg';
 
+CRUD
+    Create  Read    Update  Delete
+    
 
 EXERCISES
     -Define an employees table, with the following fields:
