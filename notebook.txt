@@ -45,6 +45,8 @@ PIECES OF CODE
     DELETE FROM cats WHERE name='Egg';
     DELETE FROM cats;
     SOURCE file_name.sql
+    SELECT CONCAT(column, 'text', anotherColumn) FROM books;
+    SELECT SUBSTRING('text', 1, 6);
 
 CRUD
     Create  Read    Update  Delete
