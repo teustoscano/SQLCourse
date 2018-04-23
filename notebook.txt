@@ -43,6 +43,8 @@ PIECES OF CODE
     SELECT cat_id AS id, name FROM cats;
     UPDATE cats SET breed='Shorthair' WHERE breed='Tabby';
     DELETE FROM cats WHERE name='Egg';
+    DELETE FROM cats;
+    SOURCE file_name.sql
 
 CRUD
     Create  Read    Update  Delete
