@@ -47,6 +47,11 @@ PIECES OF CODE
     SOURCE file_name.sql
     SELECT CONCAT(column, 'text', anotherColumn) FROM books;
     SELECT SUBSTRING('text', 1, 6);
+    SELECT REPLACE('Hello World', 'Hell', '%$#@');
+    SELECT REVERSE('Hello World');
+    SELECT CHAR_LENGTH('Hello World');
+    SELECT UPPER('Hello World');
+    SELECT LOWER('Hello World');
 
 CRUD
     Create  Read    Update  Delete
