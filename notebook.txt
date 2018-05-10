@@ -52,6 +52,9 @@ PIECES OF CODE
     SELECT CHAR_LENGTH('Hello World');
     SELECT UPPER('Hello World');
     SELECT LOWER('Hello World');
+    SELECT DISTINCT author_lname FROM books;
+    SELECT author_lname FROM books ORDER BY author_lname;
+    SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';
 
 CRUD
     Create  Read    Update  Delete
