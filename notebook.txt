@@ -56,6 +56,9 @@ PIECES OF CODE
     SELECT author_lname FROM books ORDER BY author_lname;
     SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';
     SELECT COUNT(*) FROM books;
+    SELECT title, author_lname FROM books GROUP BY author_lname;
+    SELECT MIN(released_year) FROM books;
+    SELECT MAX(pages) FROM books;
 
 CRUD
     Create  Read    Update  Delete
