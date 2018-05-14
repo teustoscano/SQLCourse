@@ -55,6 +55,7 @@ PIECES OF CODE
     SELECT DISTINCT author_lname FROM books;
     SELECT author_lname FROM books ORDER BY author_lname;
     SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';
+    SELECT COUNT(*) FROM books;
 
 CRUD
     Create  Read    Update  Delete
