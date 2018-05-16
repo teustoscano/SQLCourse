@@ -59,6 +59,8 @@ PIECES OF CODE
     SELECT title, author_lname FROM books GROUP BY author_lname;
     SELECT MIN(released_year) FROM books;
     SELECT MAX(pages) FROM books;
+    SELECT SUM(pages) FROM books;
+    SELECT AVG(released_year) FROM books;
 
 CRUD
     Create  Read    Update  Delete
