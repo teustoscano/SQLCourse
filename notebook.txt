@@ -16,6 +16,11 @@ DATA TYPES
     -   CHAR    VARCHAR     BINARY    VARBINARY     BLOB        TEXT        ENUM
     -   DATE    DATETIME    TIMESTAMP TIME          YEAR    
 
+RELATIONSHIP BASICS
+    ¹One to One Relationship
+    ²One to Many Relationship
+    ³Many to Many Relationship
+
 PIECES OF CODE
     SHOW DATABASES;
     CREATE DATABASE <name>;
