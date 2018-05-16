@@ -61,6 +61,9 @@ PIECES OF CODE
     SELECT MAX(pages) FROM books;
     SELECT SUM(pages) FROM books;
     SELECT AVG(released_year) FROM books;
+    SELECT CURDATE();
+    SELECT CURTIME();
+    SELECT NOW();
 
 CRUD
     Create  Read    Update  Delete
