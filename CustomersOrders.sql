@@ -29,3 +29,16 @@ VALUES ('2016/02/10',99.99,1),
 
 INSERT INTO orders(order_date,amount,customer_id)
 VALUES ('2016/06/06',33.67,98);
+
+SELECT * FROM orders WHERE customer_id =
+    (
+        SELECT id FROM customers
+        WHERE last_name='George'
+    );
+
+SELECT * FROM customers, orders WHERE customers.id = customer_id;
+
+SELECT * FROM customers JOIN orders ON customers.id = orders.customer_id;
+
+--WHEN CREATING TABLE PUT THIS SNIPPET TO DELETE
+ON DELETE CASCADE
