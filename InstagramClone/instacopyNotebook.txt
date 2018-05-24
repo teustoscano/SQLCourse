@@ -1,0 +1,28 @@
+USERS
+    id
+    username
+    created_at
+
+COMMENTS
+    id
+    users_id
+    text
+
+PHOTOS
+    id
+    picture
+    users_id
+    comments_id
+    likes_id
+
+LIKES
+    photos_id
+    number_of_likes
+
+HASHTAGS
+    id
+    photos_id
+    text
+
+FOLLOWERS/FOLLOWEES
+    number_of_followers
